@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "EstateZoningApp (Unpackaged)": {
+        "commandName": "Project"
+      },
+      "EstateZoningApp (Package)": {
+        "commandName": "MsixPackage"
+      }
+    }
+}
