@@ -224,7 +224,7 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[45];
+            _typeNameTable = new string[57];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -246,32 +246,44 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             _typeNameTable[18] = "EstateZoningApp.MainWindow";
             _typeNameTable[19] = "Microsoft.UI.Xaml.Thickness";
             _typeNameTable[20] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[21] = "EstateZoningApp.Views.MainPage";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[24] = "EstateZoningApp.ViewModels.MainViewModel";
-            _typeNameTable[25] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[26] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[27] = "EstateZoningApp.Helpers.EnumToBooleanConverter";
-            _typeNameTable[28] = "EstateZoningApp.Views.SettingsPage";
-            _typeNameTable[29] = "EstateZoningApp.ViewModels.SettingsViewModel";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.MenuBar";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[32] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.MenuBarItem";
-            _typeNameTable[34] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.AnimatedIcon";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource";
-            _typeNameTable[42] = "System.Collections.Generic.IReadOnlyDictionary`2<String, Double>";
-            _typeNameTable[43] = "EstateZoningApp.Views.ShellPage";
-            _typeNameTable[44] = "EstateZoningApp.ViewModels.ShellViewModel";
+            _typeNameTable[21] = "EstateZoningApp.Helpers.Converters.BorderScaleConverter";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[23] = "EstateZoningApp.Helpers.Converters.PointsCollectionConverter";
+            _typeNameTable[24] = "EstateZoningApp.Helpers.Converters.BorderElementConverter";
+            _typeNameTable[25] = "EstateZoningApp.Helpers.BindingHelper";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[30] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[35] = "EstateZoningApp.Views.MainPage";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[38] = "EstateZoningApp.ViewModels.MainViewModel";
+            _typeNameTable[39] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[40] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[41] = "EstateZoningApp.Helpers.EnumToBooleanConverter";
+            _typeNameTable[42] = "EstateZoningApp.Views.SettingsPage";
+            _typeNameTable[43] = "EstateZoningApp.ViewModels.SettingsViewModel";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.MenuBar";
+            _typeNameTable[45] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.MenuBarItem";
+            _typeNameTable[47] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.AnimatedIcon";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource";
+            _typeNameTable[54] = "System.Collections.Generic.IReadOnlyDictionary`2<String, Double>";
+            _typeNameTable[55] = "EstateZoningApp.Views.ShellPage";
+            _typeNameTable[56] = "EstateZoningApp.ViewModels.ShellViewModel";
 
-            _typeTable = new global::System.Type[45];
+            _typeTable = new global::System.Type[57];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -293,30 +305,42 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             _typeTable[18] = typeof(global::EstateZoningApp.MainWindow);
             _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Thickness);
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[21] = typeof(global::EstateZoningApp.Views.MainPage);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[24] = typeof(global::EstateZoningApp.ViewModels.MainViewModel);
-            _typeTable[25] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[26] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[27] = typeof(global::EstateZoningApp.Helpers.EnumToBooleanConverter);
-            _typeTable[28] = typeof(global::EstateZoningApp.Views.SettingsPage);
-            _typeTable[29] = typeof(global::EstateZoningApp.ViewModels.SettingsViewModel);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBar);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[32] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuBarItem>);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBarItem);
-            _typeTable[34] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.AnimatedIcon);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource);
-            _typeTable[42] = typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.String, global::System.Double>);
-            _typeTable[43] = typeof(global::EstateZoningApp.Views.ShellPage);
-            _typeTable[44] = typeof(global::EstateZoningApp.ViewModels.ShellViewModel);
+            _typeTable[21] = typeof(global::EstateZoningApp.Helpers.Converters.BorderScaleConverter);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[23] = typeof(global::EstateZoningApp.Helpers.Converters.PointsCollectionConverter);
+            _typeTable[24] = typeof(global::EstateZoningApp.Helpers.Converters.BorderElementConverter);
+            _typeTable[25] = typeof(global::EstateZoningApp.Helpers.BindingHelper);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[30] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[35] = typeof(global::EstateZoningApp.Views.MainPage);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[38] = typeof(global::EstateZoningApp.ViewModels.MainViewModel);
+            _typeTable[39] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[40] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[41] = typeof(global::EstateZoningApp.Helpers.EnumToBooleanConverter);
+            _typeTable[42] = typeof(global::EstateZoningApp.Views.SettingsPage);
+            _typeTable[43] = typeof(global::EstateZoningApp.ViewModels.SettingsViewModel);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBar);
+            _typeTable[45] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuBarItem>);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBarItem);
+            _typeTable[47] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.AnimatedIcon);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource);
+            _typeTable[54] = typeof(global::System.Collections.Generic.IReadOnlyDictionary<global::System.String, global::System.Double>);
+            _typeTable[55] = typeof(global::EstateZoningApp.Views.ShellPage);
+            _typeTable[56] = typeof(global::EstateZoningApp.ViewModels.ShellViewModel);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -355,14 +379,19 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
         private object Activate_4_WindowEx() { return new global::WinUIEx.WindowEx(); }
         private object Activate_15_MicaSystemBackdrop() { return new global::WinUIEx.MicaSystemBackdrop(); }
         private object Activate_18_MainWindow() { return new global::EstateZoningApp.MainWindow(); }
-        private object Activate_21_MainPage() { return new global::EstateZoningApp.Views.MainPage(); }
-        private object Activate_24_MainViewModel() { return new global::EstateZoningApp.ViewModels.MainViewModel(); }
-        private object Activate_27_EnumToBooleanConverter() { return new global::EstateZoningApp.Helpers.EnumToBooleanConverter(); }
-        private object Activate_28_SettingsPage() { return new global::EstateZoningApp.Views.SettingsPage(); }
-        private object Activate_30_MenuBar() { return new global::Microsoft.UI.Xaml.Controls.MenuBar(); }
-        private object Activate_33_MenuBarItem() { return new global::Microsoft.UI.Xaml.Controls.MenuBarItem(); }
-        private object Activate_36_AnimatedIcon() { return new global::Microsoft.UI.Xaml.Controls.AnimatedIcon(); }
-        private object Activate_41_AnimatedSettingsVisualSource() { return new global::Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource(); }
+        private object Activate_21_BorderScaleConverter() { return new global::EstateZoningApp.Helpers.Converters.BorderScaleConverter(); }
+        private object Activate_23_PointsCollectionConverter() { return new global::EstateZoningApp.Helpers.Converters.PointsCollectionConverter(); }
+        private object Activate_24_BorderElementConverter() { return new global::EstateZoningApp.Helpers.Converters.BorderElementConverter(); }
+        private object Activate_25_BindingHelper() { return new global::EstateZoningApp.Helpers.BindingHelper(); }
+        private object Activate_26_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_35_MainPage() { return new global::EstateZoningApp.Views.MainPage(); }
+        private object Activate_38_MainViewModel() { return new global::EstateZoningApp.ViewModels.MainViewModel(); }
+        private object Activate_41_EnumToBooleanConverter() { return new global::EstateZoningApp.Helpers.EnumToBooleanConverter(); }
+        private object Activate_42_SettingsPage() { return new global::EstateZoningApp.Views.SettingsPage(); }
+        private object Activate_44_MenuBar() { return new global::Microsoft.UI.Xaml.Controls.MenuBar(); }
+        private object Activate_46_MenuBarItem() { return new global::Microsoft.UI.Xaml.Controls.MenuBarItem(); }
+        private object Activate_49_AnimatedIcon() { return new global::Microsoft.UI.Xaml.Controls.AnimatedIcon(); }
+        private object Activate_53_AnimatedSettingsVisualSource() { return new global::Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -370,13 +399,13 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_32_IList(object instance, object item)
+        private void VectorAdd_45_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.MenuBarItem>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_34_IList(object instance, object item)
+        private void VectorAdd_47_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase)item;
@@ -550,103 +579,201 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  EstateZoningApp.Views.MainPage
+            case 21:   //  EstateZoningApp.Helpers.Converters.BorderScaleConverter
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_21_BorderScaleConverter;
+                userType.AddMemberName("Scale");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  EstateZoningApp.Helpers.Converters.PointsCollectionConverter
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_23_PointsCollectionConverter;
+                userType.AddMemberName("Scale");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 24:   //  EstateZoningApp.Helpers.Converters.BorderElementConverter
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_24_BorderElementConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  EstateZoningApp.Helpers.BindingHelper
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_25_BindingHelper;
+                userType.AddMemberName("CanvasLeftBindingPath");
+                userType.AddMemberName("CanvasTopBindingPath");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Microsoft.UI.Xaml.Controls.NumberBox
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_26_NumberBox;
+                userType.AddMemberName("Minimum");
+                userType.AddMemberName("Maximum");
+                userType.AddMemberName("Value");
+                userType.AddMemberName("SpinButtonPlacementMode");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("AcceptsExpression");
+                userType.AddMemberName("Description");
+                userType.AddMemberName("IsWrapEnabled");
+                userType.AddMemberName("LargeChange");
+                userType.AddMemberName("NumberFormatter");
+                userType.AddMemberName("PlaceholderText");
+                userType.AddMemberName("PreventKeyboardDisplayOnProgrammaticFocus");
+                userType.AddMemberName("SelectionFlyout");
+                userType.AddMemberName("SelectionHighlightColor");
+                userType.AddMemberName("SmallChange");
+                userType.AddMemberName("Text");
+                userType.AddMemberName("TextReadingOrder");
+                userType.AddMemberName("ValidationMode");
+                xamlType = userType;
+                break;
+
+            case 27:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 28:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
+                userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
+                userType.AddEnumValue("Inline", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Inline);
+                xamlType = userType;
+                break;
+
+            case 29:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 30:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 31:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 33:   //  Microsoft.UI.Xaml.TextReadingOrder
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 34:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
+                userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
+                xamlType = userType;
+                break;
+
+            case 35:   //  EstateZoningApp.Views.MainPage
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_MainPage;
+                userType.Activator = Activate_35_MainPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.Page
+            case 36:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 37:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  EstateZoningApp.ViewModels.MainViewModel
+            case 38:   //  EstateZoningApp.ViewModels.MainViewModel
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 25:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+            case 39:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
                 xamlType = userType;
                 break;
 
-            case 26:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+            case 40:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 27:   //  EstateZoningApp.Helpers.EnumToBooleanConverter
+            case 41:   //  EstateZoningApp.Helpers.EnumToBooleanConverter
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_27_EnumToBooleanConverter;
+                userType.Activator = Activate_41_EnumToBooleanConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  EstateZoningApp.Views.SettingsPage
+            case 42:   //  EstateZoningApp.Views.SettingsPage
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_28_SettingsPage;
+                userType.Activator = Activate_42_SettingsPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  EstateZoningApp.ViewModels.SettingsViewModel
+            case 43:   //  EstateZoningApp.ViewModels.SettingsViewModel
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  Microsoft.UI.Xaml.Controls.MenuBar
+            case 44:   //  Microsoft.UI.Xaml.Controls.MenuBar
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_30_MenuBar;
+                userType.Activator = Activate_44_MenuBar;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.MenuBar.Items");
                 userType.AddMemberName("Items");
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 32:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>
+            case 45:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_32_IList;
+                userType.CollectionAdd = VectorAdd_45_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Controls.MenuBarItem
+            case 46:   //  Microsoft.UI.Xaml.Controls.MenuBarItem
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_33_MenuBarItem;
+                userType.Activator = Activate_46_MenuBarItem;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.MenuBarItem.Items");
                 userType.AddMemberName("Items");
                 userType.AddMemberName("Title");
                 xamlType = userType;
                 break;
 
-            case 34:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>
+            case 47:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_34_IList;
+                userType.CollectionAdd = VectorAdd_47_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase
+            case 48:   //  Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.Controls.AnimatedIcon
+            case 49:   //  Microsoft.UI.Xaml.Controls.AnimatedIcon
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.IconElement"));
-                userType.Activator = Activate_36_AnimatedIcon;
+                userType.Activator = Activate_49_AnimatedIcon;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.AnimatedIcon.Source");
                 userType.AddMemberName("Source");
                 userType.AddMemberName("FallbackIconSource");
@@ -655,45 +782,41 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 50:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2
+            case 51:   //  Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 52:   //  Microsoft.UI.Xaml.Controls.IconSource
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 41:   //  Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource
+            case 53:   //  Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_41_AnimatedSettingsVisualSource;
+                userType.Activator = Activate_53_AnimatedSettingsVisualSource;
                 userType.AddMemberName("Markers");
                 xamlType = userType;
                 break;
 
-            case 42:   //  System.Collections.Generic.IReadOnlyDictionary`2<String, Double>
+            case 54:   //  System.Collections.Generic.IReadOnlyDictionary`2<String, Double>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 43:   //  EstateZoningApp.Views.ShellPage
+            case 55:   //  EstateZoningApp.Views.ShellPage
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  EstateZoningApp.ViewModels.ShellViewModel
+            case 56:   //  EstateZoningApp.ViewModels.ShellViewModel
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -1133,80 +1256,290 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.CornerRadius)instance;
             that.BottomLeft = (global::System.Double)Value;
         }
-        private object get_39_MainPage_ViewModel(object instance)
+        private object get_39_BorderScaleConverter_Scale(object instance)
+        {
+            var that = (global::EstateZoningApp.Helpers.Converters.BorderScaleConverter)instance;
+            return that.Scale;
+        }
+        private void set_39_BorderScaleConverter_Scale(object instance, object Value)
+        {
+            var that = (global::EstateZoningApp.Helpers.Converters.BorderScaleConverter)instance;
+            that.Scale = (global::System.Double)Value;
+        }
+        private object get_40_PointsCollectionConverter_Scale(object instance)
+        {
+            var that = (global::EstateZoningApp.Helpers.Converters.PointsCollectionConverter)instance;
+            return that.Scale;
+        }
+        private void set_40_PointsCollectionConverter_Scale(object instance, object Value)
+        {
+            var that = (global::EstateZoningApp.Helpers.Converters.PointsCollectionConverter)instance;
+            that.Scale = (global::System.Double)Value;
+        }
+        private object get_43_NumberBox_Minimum(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Minimum;
+        }
+        private void set_43_NumberBox_Minimum(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Minimum = (global::System.Double)Value;
+        }
+        private object get_44_NumberBox_Maximum(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Maximum;
+        }
+        private void set_44_NumberBox_Maximum(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Maximum = (global::System.Double)Value;
+        }
+        private object get_45_NumberBox_Value(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Value;
+        }
+        private void set_45_NumberBox_Value(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Value = (global::System.Double)Value;
+        }
+        private object get_46_NumberBox_SpinButtonPlacementMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.SpinButtonPlacementMode;
+        }
+        private void set_46_NumberBox_SpinButtonPlacementMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.SpinButtonPlacementMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode)Value;
+        }
+        private object get_47_NumberBox_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Header;
+        }
+        private void set_47_NumberBox_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_48_NumberBox_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_48_NumberBox_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_49_NumberBox_AcceptsExpression(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.AcceptsExpression;
+        }
+        private void set_49_NumberBox_AcceptsExpression(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.AcceptsExpression = (global::System.Boolean)Value;
+        }
+        private object get_50_NumberBox_Description(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Description;
+        }
+        private void set_50_NumberBox_Description(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Description = (global::System.Object)Value;
+        }
+        private object get_51_NumberBox_IsWrapEnabled(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.IsWrapEnabled;
+        }
+        private void set_51_NumberBox_IsWrapEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.IsWrapEnabled = (global::System.Boolean)Value;
+        }
+        private object get_52_NumberBox_LargeChange(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.LargeChange;
+        }
+        private void set_52_NumberBox_LargeChange(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.LargeChange = (global::System.Double)Value;
+        }
+        private object get_53_NumberBox_NumberFormatter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.NumberFormatter;
+        }
+        private void set_53_NumberBox_NumberFormatter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.NumberFormatter = (global::Windows.Globalization.NumberFormatting.INumberFormatter2)Value;
+        }
+        private object get_54_NumberBox_PlaceholderText(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.PlaceholderText;
+        }
+        private void set_54_NumberBox_PlaceholderText(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.PlaceholderText = (global::System.String)Value;
+        }
+        private object get_55_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.PreventKeyboardDisplayOnProgrammaticFocus;
+        }
+        private void set_55_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.PreventKeyboardDisplayOnProgrammaticFocus = (global::System.Boolean)Value;
+        }
+        private object get_56_NumberBox_SelectionFlyout(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.SelectionFlyout;
+        }
+        private void set_56_NumberBox_SelectionFlyout(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.SelectionFlyout = (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)Value;
+        }
+        private object get_57_NumberBox_SelectionHighlightColor(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.SelectionHighlightColor;
+        }
+        private void set_57_NumberBox_SelectionHighlightColor(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.SelectionHighlightColor = (global::Microsoft.UI.Xaml.Media.SolidColorBrush)Value;
+        }
+        private object get_58_NumberBox_SmallChange(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.SmallChange;
+        }
+        private void set_58_NumberBox_SmallChange(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.SmallChange = (global::System.Double)Value;
+        }
+        private object get_59_NumberBox_Text(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Text;
+        }
+        private void set_59_NumberBox_Text(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Text = (global::System.String)Value;
+        }
+        private object get_60_NumberBox_TextReadingOrder(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.TextReadingOrder;
+        }
+        private void set_60_NumberBox_TextReadingOrder(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.TextReadingOrder = (global::Microsoft.UI.Xaml.TextReadingOrder)Value;
+        }
+        private object get_61_NumberBox_ValidationMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.ValidationMode;
+        }
+        private void set_61_NumberBox_ValidationMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.ValidationMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode)Value;
+        }
+        private object get_62_MainPage_ViewModel(object instance)
         {
             var that = (global::EstateZoningApp.Views.MainPage)instance;
             return that.ViewModel;
         }
-        private object get_40_SettingsPage_ViewModel(object instance)
+        private object get_63_SettingsPage_ViewModel(object instance)
         {
             var that = (global::EstateZoningApp.Views.SettingsPage)instance;
             return that.ViewModel;
         }
-        private object get_41_MenuBar_Items(object instance)
+        private object get_64_MenuBar_Items(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.MenuBar)instance;
             return that.Items;
         }
-        private object get_42_MenuBarItem_Items(object instance)
+        private object get_65_MenuBarItem_Items(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
             return that.Items;
         }
-        private object get_43_MenuBarItem_Title(object instance)
+        private object get_66_MenuBarItem_Title(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
             return that.Title;
         }
-        private void set_43_MenuBarItem_Title(object instance, object Value)
+        private void set_66_MenuBarItem_Title(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_44_AnimatedIcon_Source(object instance)
+        private object get_67_AnimatedIcon_Source(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             return that.Source;
         }
-        private void set_44_AnimatedIcon_Source(object instance, object Value)
+        private void set_67_AnimatedIcon_Source(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             that.Source = (global::Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2)Value;
         }
-        private object get_45_AnimatedIcon_FallbackIconSource(object instance)
+        private object get_68_AnimatedIcon_FallbackIconSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             return that.FallbackIconSource;
         }
-        private void set_45_AnimatedIcon_FallbackIconSource(object instance, object Value)
+        private void set_68_AnimatedIcon_FallbackIconSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             that.FallbackIconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
         }
-        private object get_46_AnimatedIcon_MirroredWhenRightToLeft(object instance)
+        private object get_69_AnimatedIcon_MirroredWhenRightToLeft(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             return that.MirroredWhenRightToLeft;
         }
-        private void set_46_AnimatedIcon_MirroredWhenRightToLeft(object instance, object Value)
+        private void set_69_AnimatedIcon_MirroredWhenRightToLeft(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedIcon)instance;
             that.MirroredWhenRightToLeft = (global::System.Boolean)Value;
         }
-        private object get_47_AnimatedIcon_State(object instance)
+        private object get_70_AnimatedIcon_State(object instance)
         {
             return global::Microsoft.UI.Xaml.Controls.AnimatedIcon.GetState((global::Microsoft.UI.Xaml.DependencyObject)instance);
         }
-        private void set_47_AnimatedIcon_State(object instance, object Value)
+        private void set_70_AnimatedIcon_State(object instance, object Value)
         {
             global::Microsoft.UI.Xaml.Controls.AnimatedIcon.SetState((global::Microsoft.UI.Xaml.DependencyObject)instance, (global::System.String)Value);
         }
-        private object get_48_AnimatedSettingsVisualSource_Markers(object instance)
+        private object get_71_AnimatedSettingsVisualSource_Markers(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource)instance;
             return that.Markers;
         }
-        private object get_49_ShellPage_ViewModel(object instance)
+        private object get_72_ShellPage_ViewModel(object instance)
         {
             var that = (global::EstateZoningApp.Views.ShellPage)instance;
             return that.ViewModel;
@@ -1454,59 +1787,218 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlMember.Getter = get_38_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_38_CornerRadius_BottomLeft;
                 break;
+            case "EstateZoningApp.Helpers.Converters.BorderScaleConverter.Scale":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Helpers.Converters.BorderScaleConverter");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Scale", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_39_BorderScaleConverter_Scale;
+                xamlMember.Setter = set_39_BorderScaleConverter_Scale;
+                break;
+            case "EstateZoningApp.Helpers.Converters.PointsCollectionConverter.Scale":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Helpers.Converters.PointsCollectionConverter");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Scale", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_40_PointsCollectionConverter_Scale;
+                xamlMember.Setter = set_40_PointsCollectionConverter_Scale;
+                break;
+            case "EstateZoningApp.Helpers.BindingHelper.CanvasLeftBindingPath":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Helpers.BindingHelper");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanvasLeftBindingPath", "String");
+                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
+                xamlMember.SetIsAttachable();
+                break;
+            case "EstateZoningApp.Helpers.BindingHelper.CanvasTopBindingPath":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Helpers.BindingHelper");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanvasTopBindingPath", "String");
+                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
+                xamlMember.SetIsAttachable();
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Minimum":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_43_NumberBox_Minimum;
+                xamlMember.Setter = set_43_NumberBox_Minimum;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Maximum":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_NumberBox_Maximum;
+                xamlMember.Setter = set_44_NumberBox_Maximum;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Value":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Value", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_45_NumberBox_Value;
+                xamlMember.Setter = set_45_NumberBox_Value;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SpinButtonPlacementMode":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SpinButtonPlacementMode", "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_46_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Setter = set_46_NumberBox_SpinButtonPlacementMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_NumberBox_Header;
+                xamlMember.Setter = set_47_NumberBox_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.HeaderTemplate":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_NumberBox_HeaderTemplate;
+                xamlMember.Setter = set_48_NumberBox_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.AcceptsExpression":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AcceptsExpression", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_NumberBox_AcceptsExpression;
+                xamlMember.Setter = set_49_NumberBox_AcceptsExpression;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Description":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Description", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_NumberBox_Description;
+                xamlMember.Setter = set_50_NumberBox_Description;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.IsWrapEnabled":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsWrapEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_NumberBox_IsWrapEnabled;
+                xamlMember.Setter = set_51_NumberBox_IsWrapEnabled;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.LargeChange":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "LargeChange", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_52_NumberBox_LargeChange;
+                xamlMember.Setter = set_52_NumberBox_LargeChange;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.NumberFormatter":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "NumberFormatter", "Windows.Globalization.NumberFormatting.INumberFormatter2");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_53_NumberBox_NumberFormatter;
+                xamlMember.Setter = set_53_NumberBox_NumberFormatter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.PlaceholderText":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "PlaceholderText", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_54_NumberBox_PlaceholderText;
+                xamlMember.Setter = set_54_NumberBox_PlaceholderText;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.PreventKeyboardDisplayOnProgrammaticFocus":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "PreventKeyboardDisplayOnProgrammaticFocus", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_55_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Setter = set_55_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionFlyout":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SelectionFlyout", "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_56_NumberBox_SelectionFlyout;
+                xamlMember.Setter = set_56_NumberBox_SelectionFlyout;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionHighlightColor":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SelectionHighlightColor", "Microsoft.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_NumberBox_SelectionHighlightColor;
+                xamlMember.Setter = set_57_NumberBox_SelectionHighlightColor;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SmallChange":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SmallChange", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_NumberBox_SmallChange;
+                xamlMember.Setter = set_58_NumberBox_SmallChange;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Text":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Text", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_NumberBox_Text;
+                xamlMember.Setter = set_59_NumberBox_Text;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.TextReadingOrder":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "TextReadingOrder", "Microsoft.UI.Xaml.TextReadingOrder");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_NumberBox_TextReadingOrder;
+                xamlMember.Setter = set_60_NumberBox_TextReadingOrder;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.ValidationMode":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ValidationMode", "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_NumberBox_ValidationMode;
+                xamlMember.Setter = set_61_NumberBox_ValidationMode;
+                break;
             case "EstateZoningApp.Views.MainPage.ViewModel":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Views.MainPage");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ViewModel", "EstateZoningApp.ViewModels.MainViewModel");
-                xamlMember.Getter = get_39_MainPage_ViewModel;
+                xamlMember.Getter = get_62_MainPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "EstateZoningApp.Views.SettingsPage.ViewModel":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Views.SettingsPage");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ViewModel", "EstateZoningApp.ViewModels.SettingsViewModel");
-                xamlMember.Getter = get_40_SettingsPage_ViewModel;
+                xamlMember.Getter = get_63_SettingsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.MenuBar.Items":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBar");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_MenuBar_Items;
+                xamlMember.Getter = get_64_MenuBar_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.MenuBarItem.Items":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBarItem");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_MenuBarItem_Items;
+                xamlMember.Getter = get_65_MenuBarItem_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.MenuBarItem.Title":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBarItem");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Title", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_MenuBarItem_Title;
-                xamlMember.Setter = set_43_MenuBarItem_Title;
+                xamlMember.Getter = get_66_MenuBarItem_Title;
+                xamlMember.Setter = set_66_MenuBarItem_Title;
                 break;
             case "Microsoft.UI.Xaml.Controls.AnimatedIcon.Source":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.AnimatedIcon");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Source", "Microsoft.UI.Xaml.Controls.IAnimatedVisualSource2");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_AnimatedIcon_Source;
-                xamlMember.Setter = set_44_AnimatedIcon_Source;
+                xamlMember.Getter = get_67_AnimatedIcon_Source;
+                xamlMember.Setter = set_67_AnimatedIcon_Source;
                 break;
             case "Microsoft.UI.Xaml.Controls.AnimatedIcon.FallbackIconSource":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.AnimatedIcon");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "FallbackIconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_AnimatedIcon_FallbackIconSource;
-                xamlMember.Setter = set_45_AnimatedIcon_FallbackIconSource;
+                xamlMember.Getter = get_68_AnimatedIcon_FallbackIconSource;
+                xamlMember.Setter = set_68_AnimatedIcon_FallbackIconSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.AnimatedIcon.MirroredWhenRightToLeft":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.AnimatedIcon");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "MirroredWhenRightToLeft", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_AnimatedIcon_MirroredWhenRightToLeft;
-                xamlMember.Setter = set_46_AnimatedIcon_MirroredWhenRightToLeft;
+                xamlMember.Getter = get_69_AnimatedIcon_MirroredWhenRightToLeft;
+                xamlMember.Setter = set_69_AnimatedIcon_MirroredWhenRightToLeft;
                 break;
             case "Microsoft.UI.Xaml.Controls.AnimatedIcon.State":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.AnimatedIcon");
@@ -1514,19 +2006,19 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_47_AnimatedIcon_State;
-                xamlMember.Setter = set_47_AnimatedIcon_State;
+                xamlMember.Getter = get_70_AnimatedIcon_State;
+                xamlMember.Setter = set_70_AnimatedIcon_State;
                 break;
             case "Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource.Markers":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Markers", "System.Collections.Generic.IReadOnlyDictionary`2<String, Double>");
-                xamlMember.Getter = get_48_AnimatedSettingsVisualSource_Markers;
+                xamlMember.Getter = get_71_AnimatedSettingsVisualSource_Markers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "EstateZoningApp.Views.ShellPage.ViewModel":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EstateZoningApp.Views.ShellPage");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ViewModel", "EstateZoningApp.ViewModels.ShellViewModel");
-                xamlMember.Getter = get_49_ShellPage_ViewModel;
+                xamlMember.Getter = get_72_ShellPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

@@ -1,3 +1,4 @@
+C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\App.xbf
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MainWindow.xbf
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xbf
@@ -7,6 +8,8 @@ C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xbf
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.xbf
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Assets\WindowIcon.ico
+C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\bush1.png
+C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\tree1.png
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\dcompi.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -401,7 +404,6 @@ C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.222.60605.dll
-C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
