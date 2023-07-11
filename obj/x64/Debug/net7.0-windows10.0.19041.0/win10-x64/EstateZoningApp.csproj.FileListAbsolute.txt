@@ -10,6 +10,7 @@ C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Assets\WindowIcon.ico
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\bush1.png
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\tree1.png
+C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\tree2.png
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\dcompi.dll
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -465,4 +466,3 @@ C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\obj\x64
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
-C:\Users\boarf\Desktop\Visual Studio Workspace\Repos new\EstateZoningApp\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Resources\tree2.png
