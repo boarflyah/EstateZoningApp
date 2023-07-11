@@ -57,12 +57,18 @@
 
                     <!--#region ResourcesList region-->
 
-                    <GridView ItemsSource="{x:Bind ViewModel.Resources,Mode=OneWay}" Header="Zasoby"
-                              Margin="10" SelectionMode="Single" CanDragItems="True" DragItemsStarting="GridView_DragItemsStarting"
-                              >
+                    <GridView x:Name="ResourcesGridView" ItemsSource="{x:Bind ViewModel.Resources,Mode=OneWay}" Header="Zasoby"
+                              Margin="10" SelectionMode="Single" CanDragItems="True" DragItemsStarting="GridView_DragItemsStarting">
+                        <GridView.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontSize="15" FontWeight="Light" Text="{Binding}"/>
+                            </DataTemplate>
+                        </GridView.HeaderTemplate>
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="models:SimplePoint">
-                                <Image Source="{Binding ImagePath, Mode=OneWay}" Height="30" Width="30" Margin="10"/>
+                                <Grid Width="30" Height="30" DragStarting="Grid_DragStarting" CanDrag="False">
+                                    <Image Source="{Binding ImagePath, Mode=OneWay}" Stretch="Fill" DragStarting="Image_DragStarting_1" CanDrag="False"/>
+                                </Grid>
                             </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>
@@ -83,6 +89,27 @@
                         </NumberBox>
                         <NumberBox x:Name="selectedYNumberBox" Minimum="0" Maximum="1000" Value="{x:Bind ViewModel.SelectedElement.Y, Mode=TwoWay}" FontSize="15" FontWeight="Light"
                            MinWidth="62" Width="Auto" Height="Auto" Margin="5 0 0 0" SpinButtonPlacementMode="Compact" Header="Y(m)"
+                               HorizontalAlignment="Left">
+                            <NumberBox.HeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock FontSize="15" FontWeight="Light" Text="{Binding}"/>
+                                </DataTemplate>
+                            </NumberBox.HeaderTemplate>
+                        </NumberBox>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Stretch">
+                        <NumberBox x:Name="selectedWidthNumberBox" Minimum="0" Maximum="1000" Value="{x:Bind ViewModel.SelectedElement.Width, Mode=TwoWay}" FontSize="15" FontWeight="Light"
+                           MinWidth="62" MaxWidth="100" Height="Auto" SpinButtonPlacementMode="Compact" Header="Szer.(m)"
+                               HorizontalAlignment="Left">
+                            <NumberBox.HeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock FontSize="15" FontWeight="Light" Text="{Binding}"/>
+                                </DataTemplate>
+                            </NumberBox.HeaderTemplate>
+                        </NumberBox>
+                        <NumberBox x:Name="selectedHeightNumberBox" Minimum="0" Maximum="1000" Value="{x:Bind ViewModel.SelectedElement.Height, Mode=TwoWay}" FontSize="15" FontWeight="Light"
+                           MinWidth="62" Width="Auto" Height="Auto" Margin="5 0 0 0" SpinButtonPlacementMode="Compact" Header="Wys.(m)"
                                HorizontalAlignment="Left">
                             <NumberBox.HeaderTemplate>
                                 <DataTemplate>
@@ -162,9 +189,11 @@
                                 <!--<Polyline x:Name="shapePolyline" Points="{Binding Points, Mode=TwoWay, Converter={StaticResource pointsCollectionConverter}}" Stroke="Black" StrokeThickness="1"/>-->
                                 <Border CornerRadius="5" BorderThickness="{Binding Path=IsSelected, Converter={StaticResource borderElementConverter},Mode=OneWay}" BorderBrush="LightGray">
                                     <Grid>
-                                        <Image Source="{Binding ImagePath}" Width="{Binding Width}" Height="{Binding Height}"
-                                           CanDrag="True" DragStarting="Image_DragStarting"
-                                           AllowFocusOnInteraction="True" AllowFocusWhenDisabled="True"/>
+                                        <Image Source="{Binding ImagePath}" Stretch="Fill"
+                                               Width="{Binding Width, Converter={StaticResource borderScaleConverter}}" 
+                                               Height="{Binding Height, Converter={StaticResource borderScaleConverter}}"
+                                               CanDrag="True" DragStarting="Image_DragStarting"
+                                               AllowFocusOnInteraction="True" AllowFocusWhenDisabled="True"/>
                                     </Grid>
                                 </Border>
 

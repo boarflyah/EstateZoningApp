@@ -27,6 +27,10 @@ public partial class MainViewModel : ObservableRecipient
         get; set;
     }
 
+    double DraggedOnX;
+
+    double DraggedOnY;
+
     [ObservableProperty]
     string _ProjectName;
 
@@ -169,15 +173,15 @@ public partial class MainViewModel : ObservableRecipient
 
         Resources.Add(new SimplePoint()
         {
-            Height= 50,
-            Width = 50,
-            ImagePath = "\\Resources\\tree1.png"
+            Height= 3,
+            Width = 3,
+            ImagePath = "\\Resources\\tree2.png"
         });
 
         Resources.Add(new SimplePoint()
         {
-            Height = 50,
-            Width = 50,
+            Height = 1,
+            Width = 2,
             ImagePath = "\\Resources\\bush1.png"
         });
 
@@ -225,12 +229,18 @@ public partial class MainViewModel : ObservableRecipient
         }
     }
 
-    public void AddPointToElements(SimplePoint point, double x, double y)
+    public void SetDraggedOn(double x, double y)
+    {
+        DraggedOnX = x;
+        DraggedOnY = y;
+    }
+
+    public void AddPointToElements(SimplePoint point, double x, double y, double draggedOnX, double draggedOnY)
     {
         //point.X = x / (Scale == 0 ? 1 : Scale);
         //point.Y = y / (Scale == 0 ? 1 : Scale);
         //point.Scale = Scale;
-        RelocateElement(point, x, y);
+        RelocateElement(point, x, y, draggedOnX, draggedOnY);
         point.Scale = Scale;
         Elements.Add(point);
     }
@@ -239,6 +249,12 @@ public partial class MainViewModel : ObservableRecipient
     {
         point.X = x / (Scale == 0 ? 1 : Scale);
         point.Y = y / (Scale == 0 ? 1 : Scale);
+    }
+
+    public void RelocateElement(SimplePoint point, double x, double y, double draggedOnX, double draggedOnY)
+    {
+        point.X = (x - draggedOnX) / (Scale == 0 ? 1 : Scale);
+        point.Y = (y - draggedOnY) / (Scale == 0 ? 1 : Scale);
     }
 
     public void ElementTapHandle(SimplePoint point)

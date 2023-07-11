@@ -1,5 +1,6 @@
 ﻿using EstateZoningApp.Core.Models.Abstracts;
 using EstateZoningApp.ViewModels;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Newtonsoft.Json;
 using Windows.Globalization.NumberFormatting;
@@ -14,6 +15,9 @@ public sealed partial class MainPage : Page
     }
 
     bool isElementRelocating;
+    double draggedOnX;
+    double draggedOnY;
+    SimplePoint dragged;
 
     public MainPage()
     {
@@ -32,7 +36,6 @@ public sealed partial class MainPage : Page
     private void BorderGrid_SizeChanged(object sender, Microsoft.UI.Xaml.SizeChangedEventArgs e)
     {
         ViewModel.SetScale(e.NewSize.Width, e.NewSize.Height);
-        
     }
 
     private void Canvas_DragEnter(object sender, Microsoft.UI.Xaml.DragEventArgs e)
@@ -47,13 +50,13 @@ public sealed partial class MainPage : Page
     {
         var position = e.GetPosition(sender as Canvas);
         if (isElementRelocating)
-            ViewModel.RelocateElement(ViewModel.SelectedElement, position.X, position.Y);
+            ViewModel.RelocateElement(ViewModel.SelectedElement, position.X, position.Y, draggedOnX, draggedOnY);
         else
         {
             var json = await e.DataView.GetTextAsync("SimplePointJson");
             SimplePoint dragged = JsonConvert.DeserializeObject<SimplePoint>(json);
             if (dragged != null)
-                ViewModel.AddPointToElements(dragged, position.X, position.Y);
+                ViewModel.AddPointToElements(dragged, position.X, position.Y, draggedOnX, draggedOnY);
         }
         isElementRelocating = false;
         e.Handled = true;
@@ -77,6 +80,10 @@ public sealed partial class MainPage : Page
     {
         if (sender is Image image && image.DataContext is SimplePoint sp)
         {
+            var pointerLocation = args.GetPosition(image);
+            draggedOnX = pointerLocation.X;
+            draggedOnY = pointerLocation.Y;
+
             ViewModel.ElementTapHandle(sp);
             isElementRelocating = true;
         }
@@ -93,5 +100,27 @@ public sealed partial class MainPage : Page
         formatter.FractionDigits = 2;
         formatter.NumberRounder = rounder;
         return formatter;
+    }
+
+    private void Image_DragStarting_1(UIElement sender, DragStartingEventArgs args)
+    {
+        if (sender is Image image && image.DataContext is SimplePoint sp)
+        {
+            var pointerLocation = args.GetPosition(image);
+            draggedOnX = pointerLocation.X;
+            draggedOnY = pointerLocation.Y;
+            dragged = sp;
+        }
+    }
+
+    private void Grid_DragStarting(UIElement sender, DragStartingEventArgs args)
+    {
+        if (sender is Grid grid && grid.DataContext is SimplePoint sp)
+        {
+            var pointerLocation = args.GetPosition(grid);
+            draggedOnX = pointerLocation.X;
+            draggedOnY = pointerLocation.Y;
+            dragged = sp;
+        }
     }
 }
