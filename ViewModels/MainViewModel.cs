@@ -2,6 +2,10 @@
 using System.Xml.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using EstateZoningApp.Core.Models.Abstracts;
+using EstateZoningApp.Views.Dialog;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
 
 namespace EstateZoningApp.ViewModels;
 
@@ -13,6 +17,16 @@ public partial class MainViewModel : ObservableRecipient
         Resources = new();
         Shapes = new();
         ProjectName = "Projekt 1";
+
+
+        var commandIcon = new SymbolIconSource()
+        {
+            Symbol = Symbol.NewWindow,
+        };
+        AddNewShapeCommand = new();
+        AddNewShapeCommand.IconSource = commandIcon;
+        AddNewShapeCommand.ExecuteRequested += AddNewShapeCommand_ExecuteRequested;
+        AddNewShapeCommand.CanExecuteRequested += AddNewShapeCommand_CanExecuteRequested;
     }
 
     #region Properties
@@ -123,11 +137,42 @@ public partial class MainViewModel : ObservableRecipient
 
     #region Commands
 
-
+    public XamlUICommand AddNewShapeCommand
+    {
+        get;
+        private set;
+    }
 
     #endregion
 
     #region Methods
+
+    #region Command methods
+
+    async Task AddNewShape(XamlRoot root)
+    {
+        try
+        {
+            NewShapeDialog dialog = new()
+            {
+                XamlRoot = root
+            };
+            var dialogResult = await dialog.ShowAsync(ContentDialogPlacement.InPlace);
+            if (dialogResult == ContentDialogResult.Primary)
+            {
+                SimpleShape newShape = new();
+                foreach (var sp in dialog.Points.Where(x => x.X > 0 && x.Y > 0))
+                    newShape.Points.Add(sp);
+
+                Shapes.Add(newShape);
+            }
+        }
+        catch (Exception e)
+        {
+        }
+    }
+
+    #endregion
 
     public void LoadElements()
     {
@@ -154,6 +199,13 @@ public partial class MainViewModel : ObservableRecipient
         };
         SimplePoint p4 = new SimplePoint()
         {
+            X = 8,
+            Y = 2,
+            Height = 50,
+            Width = 50,
+        }; 
+        SimplePoint p5 = new SimplePoint()
+        {
             X = 2,
             Y = 5,
             Height = 50,
@@ -167,9 +219,50 @@ public partial class MainViewModel : ObservableRecipient
         Shape.Points.Add(p2);
         Shape.Points.Add(p3);
         Shape.Points.Add(p4);
+        Shape.Points.Add(p5);
 
         Shapes.Add(Shape);
 
+
+        SimplePoint p6 = new SimplePoint()
+        {
+            X = 15,
+            Y = 5,
+            Height = 50,
+            Width = 50,
+        };
+        SimplePoint p7 = new SimplePoint()
+        {
+            X = 15,
+            Y = 10,
+            Height = 50,
+            Width = 50,
+        };
+        SimplePoint p8 = new SimplePoint()
+        {
+            X = 20,
+            Y = 7.5,
+            Height = 50,
+            Width = 50,
+        };
+        SimplePoint p9 = new SimplePoint()
+        {
+            X = 15,
+            Y = 5,
+            Height = 50,
+            Width = 50,
+        };
+
+        SimpleShape shape2 = new();
+        shape2.Points = new()
+        {
+            p6,
+            p7,
+            p8,
+            p9
+        };
+
+        Shapes.Add(shape2);
 
         Resources.Add(new SimplePoint()
         {
@@ -269,7 +362,17 @@ public partial class MainViewModel : ObservableRecipient
 
     #region Events
 
+    private void AddNewShapeCommand_CanExecuteRequested(XamlUICommand sender, CanExecuteRequestedEventArgs args)
+    {
+        if (DimensionA == 0 || DimensionB== 0)
+            args.CanExecute = false;
+    }
 
+    private async void AddNewShapeCommand_ExecuteRequested(XamlUICommand sender, ExecuteRequestedEventArgs args)
+    {
+        if (args.Parameter is XamlRoot root)
+            await AddNewShape(root);
+    }
 
     #endregion
 }

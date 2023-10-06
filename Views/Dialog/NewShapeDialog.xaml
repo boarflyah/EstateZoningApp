@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
+    x:Class="EstateZoningApp.Views.Dialog.NewShapeDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EstateZoningApp.Views.Dialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="using:CommunityToolkit.WinUI.UI.Controls"
+    mc:Ignorable="d"
+    PrimaryButtonText="Zapisz"
+    SecondaryButtonText="Anuluj"
+    DefaultButton="Primary"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" CornerRadius="10" BorderThickness="0">
+    <!--<ContentDialog.PrimaryButtonStyle>
+        <Style>
+            <Setter Property=""
+        </Style>
+    </ContentDialog.PrimaryButtonStyle>-->
+    <Grid Width="400" Height="300">
+        <toolkit:DataGrid x:Name="ShapesGrid" ItemsSource="{x:Bind Points, Mode=TwoWay}" AutoGenerateColumns="False" AreRowDetailsFrozen="False" BeginningEdit="ShapesGrid_BeginningEdit">
+            <toolkit:DataGrid.Columns>
+                <toolkit:DataGridTextColumn Binding="{Binding X}" x:DefaultBindMode="TwoWay" Header="X" Width="200"/>
+                <toolkit:DataGridTextColumn Binding="{Binding Y}" x:DefaultBindMode="TwoWay" Header="Y" Width="200"/>
+            </toolkit:DataGrid.Columns>
+        </toolkit:DataGrid>
+    </Grid>
+</ContentDialog>
