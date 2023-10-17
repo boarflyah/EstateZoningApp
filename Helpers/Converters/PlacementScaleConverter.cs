@@ -1,4 +1,4 @@
-﻿using EstateZoningApp.Core.Models.Abstracts;
+﻿using EstateZoningApp.Core.Models;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 

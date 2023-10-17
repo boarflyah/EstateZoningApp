@@ -11,6 +11,7 @@
     PrimaryButtonText="Zapisz"
     SecondaryButtonText="Anuluj"
     DefaultButton="Primary"
+    Title="Dodaj kształt"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" CornerRadius="10" BorderThickness="0">
     <!--<ContentDialog.PrimaryButtonStyle>
         <Style>
@@ -18,7 +19,9 @@
         </Style>
     </ContentDialog.PrimaryButtonStyle>-->
     <Grid Width="400" Height="300">
-        <toolkit:DataGrid x:Name="ShapesGrid" ItemsSource="{x:Bind Points, Mode=TwoWay}" AutoGenerateColumns="False" AreRowDetailsFrozen="False" BeginningEdit="ShapesGrid_BeginningEdit">
+        <toolkit:DataGrid x:Name="ShapesGrid" GridLinesVisibility="None"
+                          ItemsSource="{x:Bind Points, Mode=TwoWay}" AutoGenerateColumns="False" AreRowDetailsFrozen="False" 
+                          BeginningEdit="ShapesGrid_BeginningEdit" AlternatingRowBackground="LightGray">
             <toolkit:DataGrid.Columns>
                 <toolkit:DataGridTextColumn Binding="{Binding X}" x:DefaultBindMode="TwoWay" Header="X" Width="200"/>
                 <toolkit:DataGridTextColumn Binding="{Binding Y}" x:DefaultBindMode="TwoWay" Header="Y" Width="200"/>

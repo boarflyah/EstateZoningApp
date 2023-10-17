@@ -1,5 +1,5 @@
 using System.Collections.ObjectModel;
-using EstateZoningApp.Core.Models.Abstracts;
+using EstateZoningApp.Core.Models;
 using Microsoft.UI.Xaml.Controls;
 
 namespace EstateZoningApp.Views.Dialog;

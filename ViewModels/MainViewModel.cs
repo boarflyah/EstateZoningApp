@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Xml.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
-using EstateZoningApp.Core.Models.Abstracts;
+using EstateZoningApp.Core.Models;
 using EstateZoningApp.Views.Dialog;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;

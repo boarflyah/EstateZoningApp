@@ -248,21 +248,21 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             _typeNameTable[20] = "Microsoft.UI.Xaml.CornerRadius";
             _typeNameTable[21] = "CommunityToolkit.WinUI.UI.Controls.DataGrid";
             _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[23] = "System.Collections.IEnumerable";
-            _typeNameTable[24] = "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
-            _typeNameTable[25] = "System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
-            _typeNameTable[26] = "CommunityToolkit.WinUI.UI.Controls.DataGridColumn";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[28] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[29] = "Microsoft.UI.Xaml.Data.Binding";
-            _typeNameTable[30] = "Int32";
-            _typeNameTable[31] = "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>";
-            _typeNameTable[32] = "CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Visibility";
-            _typeNameTable[34] = "CommunityToolkit.WinUI.UI.Controls.DataGridLength";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Media.Brush";
-            _typeNameTable[36] = "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode";
-            _typeNameTable[37] = "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility";
+            _typeNameTable[23] = "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility";
+            _typeNameTable[24] = "System.Collections.IEnumerable";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Media.Brush";
+            _typeNameTable[26] = "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[27] = "System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[28] = "CommunityToolkit.WinUI.UI.Controls.DataGridColumn";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Data.Binding";
+            _typeNameTable[32] = "Int32";
+            _typeNameTable[33] = "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>";
+            _typeNameTable[34] = "CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Visibility";
+            _typeNameTable[36] = "CommunityToolkit.WinUI.UI.Controls.DataGridLength";
+            _typeNameTable[37] = "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode";
             _typeNameTable[38] = "CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility";
             _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.ScrollBarVisibility";
             _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger";
@@ -344,21 +344,21 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
             _typeTable[21] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGrid);
             _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[23] = typeof(global::System.Collections.IEnumerable);
-            _typeTable[24] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
-            _typeTable[25] = typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
-            _typeTable[26] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Data.Binding);
-            _typeTable[30] = typeof(global::System.Int32);
-            _typeTable[31] = typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>);
-            _typeTable[32] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Visibility);
-            _typeTable[34] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
-            _typeTable[36] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode);
-            _typeTable[37] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility);
+            _typeTable[23] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility);
+            _typeTable[24] = typeof(global::System.Collections.IEnumerable);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
+            _typeTable[26] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[27] = typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[28] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Data.Binding);
+            _typeTable[32] = typeof(global::System.Int32);
+            _typeTable[33] = typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>);
+            _typeTable[34] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Visibility);
+            _typeTable[36] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength);
+            _typeTable[37] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode);
             _typeTable[38] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility);
             _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility);
             _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger);
@@ -454,8 +454,8 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
         private object Activate_15_MicaSystemBackdrop() { return new global::WinUIEx.MicaSystemBackdrop(); }
         private object Activate_18_MainWindow() { return new global::EstateZoningApp.MainWindow(); }
         private object Activate_21_DataGrid() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGrid(); }
-        private object Activate_24_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
-        private object Activate_25_Collection() { return new global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_26_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_27_Collection() { return new global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
         private object Activate_44_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>(); }
         private object Activate_45_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>(); }
         private object Activate_47_DataGridTextColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn(); }
@@ -484,13 +484,13 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_24_ObservableCollection(object instance, object item)
+        private void VectorAdd_26_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
             var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_25_Collection(object instance, object item)
+        private void VectorAdd_27_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
             var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
@@ -703,11 +703,12 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             case 21:   //  CommunityToolkit.WinUI.UI.Controls.DataGrid
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.Activator = Activate_21_DataGrid;
+                userType.AddMemberName("GridLinesVisibility");
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("AutoGenerateColumns");
                 userType.AddMemberName("AreRowDetailsFrozen");
-                userType.AddMemberName("Columns");
                 userType.AddMemberName("AlternatingRowBackground");
+                userType.AddMemberName("Columns");
                 userType.AddMemberName("AlternatingRowForeground");
                 userType.AddMemberName("AreRowGroupHeadersFrozen");
                 userType.AddMemberName("CanUserReorderColumns");
@@ -722,7 +723,6 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 userType.AddMemberName("DragIndicatorStyle");
                 userType.AddMemberName("DropLocationIndicatorStyle");
                 userType.AddMemberName("FrozenColumnCount");
-                userType.AddMemberName("GridLinesVisibility");
                 userType.AddMemberName("HeadersVisibility");
                 userType.AddMemberName("HorizontalGridLinesBrush");
                 userType.AddMemberName("HorizontalScrollBarVisibility");
@@ -756,27 +756,40 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  System.Collections.IEnumerable
+            case 23:   //  CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility
+                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.None);
+                userType.AddEnumValue("Horizontal", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Horizontal);
+                userType.AddEnumValue("Vertical", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Vertical);
+                userType.AddEnumValue("All", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.All);
+                xamlType = userType;
+                break;
+
+            case 24:   //  System.Collections.IEnumerable
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 24:   //  System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+            case 25:   //  Microsoft.UI.Xaml.Media.Brush
+                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>"));
-                userType.CollectionAdd = VectorAdd_24_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_26_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+            case 27:   //  System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_25_Collection;
-                userType.CollectionAdd = VectorAdd_25_Collection;
+                userType.Activator = Activate_27_Collection;
+                userType.CollectionAdd = VectorAdd_27_Collection;
                 xamlType = userType;
                 break;
 
-            case 26:   //  CommunityToolkit.WinUI.UI.Controls.DataGridColumn
+            case 28:   //  CommunityToolkit.WinUI.UI.Controls.DataGridColumn
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("ActualWidth");
                 userType.AddMemberName("CanUserReorder");
@@ -800,23 +813,23 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.DependencyObject
+            case 29:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 28:   //  Microsoft.UI.Xaml.Style
+            case 30:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Microsoft.UI.Xaml.Data.Binding
+            case 31:   //  Microsoft.UI.Xaml.Data.Binding
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 30:   //  Int32
+            case 32:   //  Int32
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>
+            case 33:   //  System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetBoxedType(GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection"));
                 userType.BoxInstance = userType.BoxType<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>;
@@ -824,42 +837,29 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection
+            case 34:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Ascending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Ascending);
                 userType.AddEnumValue("Descending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Descending);
                 xamlType = userType;
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Visibility
+            case 35:   //  Microsoft.UI.Xaml.Visibility
                 xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 34:   //  CommunityToolkit.WinUI.UI.Controls.DataGridLength
+            case 36:   //  CommunityToolkit.WinUI.UI.Controls.DataGridLength
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.CreateFromStringMethod = x => (global::System.Object)global::CommunityToolkit.WinUI.UI.Controls.DataGridLength.ConvertFromString(x);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Media.Brush
-                xamlType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 36:   //  CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode
+            case 37:   //  CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode
                 userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.None);
                 userType.AddEnumValue("ExcludeHeader", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.ExcludeHeader);
                 userType.AddEnumValue("IncludeHeader", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.IncludeHeader);
-                xamlType = userType;
-                break;
-
-            case 37:   //  CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility
-                userType = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.None);
-                userType.AddEnumValue("Horizontal", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Horizontal);
-                userType.AddEnumValue("Vertical", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Vertical);
-                userType.AddEnumValue("All", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.All);
                 xamlType = userType;
                 break;
 
@@ -1695,375 +1695,375 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.CornerRadius)instance;
             that.BottomLeft = (global::System.Double)Value;
         }
-        private object get_39_DataGrid_ItemsSource(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.ItemsSource;
-        }
-        private void set_39_DataGrid_ItemsSource(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.ItemsSource = (global::System.Collections.IEnumerable)Value;
-        }
-        private object get_40_DataGrid_AutoGenerateColumns(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.AutoGenerateColumns;
-        }
-        private void set_40_DataGrid_AutoGenerateColumns(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.AutoGenerateColumns = (global::System.Boolean)Value;
-        }
-        private object get_41_DataGrid_AreRowDetailsFrozen(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.AreRowDetailsFrozen;
-        }
-        private void set_41_DataGrid_AreRowDetailsFrozen(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.AreRowDetailsFrozen = (global::System.Boolean)Value;
-        }
-        private object get_42_DataGrid_Columns(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.Columns;
-        }
-        private object get_43_DataGridColumn_ActualWidth(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.ActualWidth;
-        }
-        private object get_44_DataGridColumn_CanUserReorder(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.CanUserReorder;
-        }
-        private void set_44_DataGridColumn_CanUserReorder(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.CanUserReorder = (global::System.Boolean)Value;
-        }
-        private object get_45_DataGridColumn_CanUserResize(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.CanUserResize;
-        }
-        private void set_45_DataGridColumn_CanUserResize(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.CanUserResize = (global::System.Boolean)Value;
-        }
-        private object get_46_DataGridColumn_CanUserSort(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.CanUserSort;
-        }
-        private void set_46_DataGridColumn_CanUserSort(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.CanUserSort = (global::System.Boolean)Value;
-        }
-        private object get_47_DataGridColumn_CellStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.CellStyle;
-        }
-        private void set_47_DataGridColumn_CellStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_48_DataGridColumn_ClipboardContentBinding(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.ClipboardContentBinding;
-        }
-        private void set_48_DataGridColumn_ClipboardContentBinding(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.ClipboardContentBinding = (global::Microsoft.UI.Xaml.Data.Binding)Value;
-        }
-        private object get_49_DataGridColumn_DisplayIndex(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.DisplayIndex;
-        }
-        private void set_49_DataGridColumn_DisplayIndex(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.DisplayIndex = (global::System.Int32)Value;
-        }
-        private object get_50_DataGridColumn_DragIndicatorStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.DragIndicatorStyle;
-        }
-        private void set_50_DataGridColumn_DragIndicatorStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_51_DataGridColumn_HeaderStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.HeaderStyle;
-        }
-        private void set_51_DataGridColumn_HeaderStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.HeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_52_DataGridColumn_Header(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.Header;
-        }
-        private void set_52_DataGridColumn_Header(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.Header = (global::System.Object)Value;
-        }
-        private object get_53_DataGridColumn_IsAutoGenerated(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.IsAutoGenerated;
-        }
-        private object get_54_DataGridColumn_IsFrozen(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.IsFrozen;
-        }
-        private object get_55_DataGridColumn_IsReadOnly(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.IsReadOnly;
-        }
-        private void set_55_DataGridColumn_IsReadOnly(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.IsReadOnly = (global::System.Boolean)Value;
-        }
-        private object get_56_DataGridColumn_MaxWidth(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.MaxWidth;
-        }
-        private void set_56_DataGridColumn_MaxWidth(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.MaxWidth = (global::System.Double)Value;
-        }
-        private object get_57_DataGridColumn_MinWidth(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.MinWidth;
-        }
-        private void set_57_DataGridColumn_MinWidth(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.MinWidth = (global::System.Double)Value;
-        }
-        private object get_58_DataGridColumn_SortDirection(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.SortDirection;
-        }
-        private void set_58_DataGridColumn_SortDirection(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.SortDirection = (global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>)Value;
-        }
-        private object get_59_DataGridColumn_Tag(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.Tag;
-        }
-        private void set_59_DataGridColumn_Tag(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.Tag = (global::System.Object)Value;
-        }
-        private object get_60_DataGridColumn_Visibility(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.Visibility;
-        }
-        private void set_60_DataGridColumn_Visibility(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.Visibility = (global::Microsoft.UI.Xaml.Visibility)Value;
-        }
-        private object get_61_DataGridColumn_Width(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            return that.Width;
-        }
-        private void set_61_DataGridColumn_Width(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
-            that.Width = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
-        }
-        private object get_62_DataGrid_AlternatingRowBackground(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.AlternatingRowBackground;
-        }
-        private void set_62_DataGrid_AlternatingRowBackground(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.AlternatingRowBackground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
-        }
-        private object get_63_DataGrid_AlternatingRowForeground(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.AlternatingRowForeground;
-        }
-        private void set_63_DataGrid_AlternatingRowForeground(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.AlternatingRowForeground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
-        }
-        private object get_64_DataGrid_AreRowGroupHeadersFrozen(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.AreRowGroupHeadersFrozen;
-        }
-        private void set_64_DataGrid_AreRowGroupHeadersFrozen(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.AreRowGroupHeadersFrozen = (global::System.Boolean)Value;
-        }
-        private object get_65_DataGrid_CanUserReorderColumns(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.CanUserReorderColumns;
-        }
-        private void set_65_DataGrid_CanUserReorderColumns(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.CanUserReorderColumns = (global::System.Boolean)Value;
-        }
-        private object get_66_DataGrid_CanUserResizeColumns(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.CanUserResizeColumns;
-        }
-        private void set_66_DataGrid_CanUserResizeColumns(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.CanUserResizeColumns = (global::System.Boolean)Value;
-        }
-        private object get_67_DataGrid_CanUserSortColumns(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.CanUserSortColumns;
-        }
-        private void set_67_DataGrid_CanUserSortColumns(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.CanUserSortColumns = (global::System.Boolean)Value;
-        }
-        private object get_68_DataGrid_CellStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.CellStyle;
-        }
-        private void set_68_DataGrid_CellStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_69_DataGrid_ClipboardCopyMode(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.ClipboardCopyMode;
-        }
-        private void set_69_DataGrid_ClipboardCopyMode(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.ClipboardCopyMode = (global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode)Value;
-        }
-        private object get_70_DataGrid_ColumnHeaderHeight(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.ColumnHeaderHeight;
-        }
-        private void set_70_DataGrid_ColumnHeaderHeight(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.ColumnHeaderHeight = (global::System.Double)Value;
-        }
-        private object get_71_DataGrid_ColumnHeaderStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.ColumnHeaderStyle;
-        }
-        private void set_71_DataGrid_ColumnHeaderStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.ColumnHeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_72_DataGrid_ColumnWidth(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.ColumnWidth;
-        }
-        private void set_72_DataGrid_ColumnWidth(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.ColumnWidth = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
-        }
-        private object get_73_DataGrid_DataFetchSize(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.DataFetchSize;
-        }
-        private void set_73_DataGrid_DataFetchSize(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.DataFetchSize = (global::System.Double)Value;
-        }
-        private object get_74_DataGrid_DragIndicatorStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.DragIndicatorStyle;
-        }
-        private void set_74_DataGrid_DragIndicatorStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_75_DataGrid_DropLocationIndicatorStyle(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.DropLocationIndicatorStyle;
-        }
-        private void set_75_DataGrid_DropLocationIndicatorStyle(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.DropLocationIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_76_DataGrid_FrozenColumnCount(object instance)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            return that.FrozenColumnCount;
-        }
-        private void set_76_DataGrid_FrozenColumnCount(object instance, object Value)
-        {
-            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
-            that.FrozenColumnCount = (global::System.Int32)Value;
-        }
-        private object get_77_DataGrid_GridLinesVisibility(object instance)
+        private object get_39_DataGrid_GridLinesVisibility(object instance)
         {
             var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
             return that.GridLinesVisibility;
         }
-        private void set_77_DataGrid_GridLinesVisibility(object instance, object Value)
+        private void set_39_DataGrid_GridLinesVisibility(object instance, object Value)
         {
             var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
             that.GridLinesVisibility = (global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility)Value;
+        }
+        private object get_40_DataGrid_ItemsSource(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ItemsSource;
+        }
+        private void set_40_DataGrid_ItemsSource(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ItemsSource = (global::System.Collections.IEnumerable)Value;
+        }
+        private object get_41_DataGrid_AutoGenerateColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AutoGenerateColumns;
+        }
+        private void set_41_DataGrid_AutoGenerateColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AutoGenerateColumns = (global::System.Boolean)Value;
+        }
+        private object get_42_DataGrid_AreRowDetailsFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AreRowDetailsFrozen;
+        }
+        private void set_42_DataGrid_AreRowDetailsFrozen(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AreRowDetailsFrozen = (global::System.Boolean)Value;
+        }
+        private object get_43_DataGrid_AlternatingRowBackground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AlternatingRowBackground;
+        }
+        private void set_43_DataGrid_AlternatingRowBackground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AlternatingRowBackground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_44_DataGrid_Columns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.Columns;
+        }
+        private object get_45_DataGridColumn_ActualWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.ActualWidth;
+        }
+        private object get_46_DataGridColumn_CanUserReorder(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserReorder;
+        }
+        private void set_46_DataGridColumn_CanUserReorder(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserReorder = (global::System.Boolean)Value;
+        }
+        private object get_47_DataGridColumn_CanUserResize(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserResize;
+        }
+        private void set_47_DataGridColumn_CanUserResize(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserResize = (global::System.Boolean)Value;
+        }
+        private object get_48_DataGridColumn_CanUserSort(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CanUserSort;
+        }
+        private void set_48_DataGridColumn_CanUserSort(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CanUserSort = (global::System.Boolean)Value;
+        }
+        private object get_49_DataGridColumn_CellStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.CellStyle;
+        }
+        private void set_49_DataGridColumn_CellStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_50_DataGridColumn_ClipboardContentBinding(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.ClipboardContentBinding;
+        }
+        private void set_50_DataGridColumn_ClipboardContentBinding(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.ClipboardContentBinding = (global::Microsoft.UI.Xaml.Data.Binding)Value;
+        }
+        private object get_51_DataGridColumn_DisplayIndex(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.DisplayIndex;
+        }
+        private void set_51_DataGridColumn_DisplayIndex(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.DisplayIndex = (global::System.Int32)Value;
+        }
+        private object get_52_DataGridColumn_DragIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.DragIndicatorStyle;
+        }
+        private void set_52_DataGridColumn_DragIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_53_DataGridColumn_HeaderStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.HeaderStyle;
+        }
+        private void set_53_DataGridColumn_HeaderStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.HeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_54_DataGridColumn_Header(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Header;
+        }
+        private void set_54_DataGridColumn_Header(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_55_DataGridColumn_IsAutoGenerated(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsAutoGenerated;
+        }
+        private object get_56_DataGridColumn_IsFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsFrozen;
+        }
+        private object get_57_DataGridColumn_IsReadOnly(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.IsReadOnly;
+        }
+        private void set_57_DataGridColumn_IsReadOnly(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.IsReadOnly = (global::System.Boolean)Value;
+        }
+        private object get_58_DataGridColumn_MaxWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.MaxWidth;
+        }
+        private void set_58_DataGridColumn_MaxWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.MaxWidth = (global::System.Double)Value;
+        }
+        private object get_59_DataGridColumn_MinWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.MinWidth;
+        }
+        private void set_59_DataGridColumn_MinWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.MinWidth = (global::System.Double)Value;
+        }
+        private object get_60_DataGridColumn_SortDirection(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.SortDirection;
+        }
+        private void set_60_DataGridColumn_SortDirection(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.SortDirection = (global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>)Value;
+        }
+        private object get_61_DataGridColumn_Tag(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Tag;
+        }
+        private void set_61_DataGridColumn_Tag(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Tag = (global::System.Object)Value;
+        }
+        private object get_62_DataGridColumn_Visibility(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Visibility;
+        }
+        private void set_62_DataGridColumn_Visibility(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Visibility = (global::Microsoft.UI.Xaml.Visibility)Value;
+        }
+        private object get_63_DataGridColumn_Width(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            return that.Width;
+        }
+        private void set_63_DataGridColumn_Width(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)instance;
+            that.Width = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
+        }
+        private object get_64_DataGrid_AlternatingRowForeground(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AlternatingRowForeground;
+        }
+        private void set_64_DataGrid_AlternatingRowForeground(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AlternatingRowForeground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_65_DataGrid_AreRowGroupHeadersFrozen(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.AreRowGroupHeadersFrozen;
+        }
+        private void set_65_DataGrid_AreRowGroupHeadersFrozen(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.AreRowGroupHeadersFrozen = (global::System.Boolean)Value;
+        }
+        private object get_66_DataGrid_CanUserReorderColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserReorderColumns;
+        }
+        private void set_66_DataGrid_CanUserReorderColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserReorderColumns = (global::System.Boolean)Value;
+        }
+        private object get_67_DataGrid_CanUserResizeColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserResizeColumns;
+        }
+        private void set_67_DataGrid_CanUserResizeColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserResizeColumns = (global::System.Boolean)Value;
+        }
+        private object get_68_DataGrid_CanUserSortColumns(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CanUserSortColumns;
+        }
+        private void set_68_DataGrid_CanUserSortColumns(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CanUserSortColumns = (global::System.Boolean)Value;
+        }
+        private object get_69_DataGrid_CellStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.CellStyle;
+        }
+        private void set_69_DataGrid_CellStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.CellStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_70_DataGrid_ClipboardCopyMode(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ClipboardCopyMode;
+        }
+        private void set_70_DataGrid_ClipboardCopyMode(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ClipboardCopyMode = (global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode)Value;
+        }
+        private object get_71_DataGrid_ColumnHeaderHeight(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnHeaderHeight;
+        }
+        private void set_71_DataGrid_ColumnHeaderHeight(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnHeaderHeight = (global::System.Double)Value;
+        }
+        private object get_72_DataGrid_ColumnHeaderStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnHeaderStyle;
+        }
+        private void set_72_DataGrid_ColumnHeaderStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnHeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_73_DataGrid_ColumnWidth(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.ColumnWidth;
+        }
+        private void set_73_DataGrid_ColumnWidth(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.ColumnWidth = (global::CommunityToolkit.WinUI.UI.Controls.DataGridLength)Value;
+        }
+        private object get_74_DataGrid_DataFetchSize(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DataFetchSize;
+        }
+        private void set_74_DataGrid_DataFetchSize(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DataFetchSize = (global::System.Double)Value;
+        }
+        private object get_75_DataGrid_DragIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DragIndicatorStyle;
+        }
+        private void set_75_DataGrid_DragIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DragIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_76_DataGrid_DropLocationIndicatorStyle(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.DropLocationIndicatorStyle;
+        }
+        private void set_76_DataGrid_DropLocationIndicatorStyle(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.DropLocationIndicatorStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_77_DataGrid_FrozenColumnCount(object instance)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            return that.FrozenColumnCount;
+        }
+        private void set_77_DataGrid_FrozenColumnCount(object instance, object Value)
+        {
+            var that = (global::CommunityToolkit.WinUI.UI.Controls.DataGrid)instance;
+            that.FrozenColumnCount = (global::System.Int32)Value;
         }
         private object get_78_DataGrid_HeadersVisibility(object instance)
         {
@@ -3041,258 +3041,258 @@ namespace EstateZoningApp.EstateZoningApp_XamlTypeInfo
                 xamlMember.Getter = get_38_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_38_CornerRadius_BottomLeft;
                 break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.GridLinesVisibility":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "GridLinesVisibility", "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_39_DataGrid_GridLinesVisibility;
+                xamlMember.Setter = set_39_DataGrid_GridLinesVisibility;
+                break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ItemsSource":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ItemsSource", "System.Collections.IEnumerable");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_DataGrid_ItemsSource;
-                xamlMember.Setter = set_39_DataGrid_ItemsSource;
+                xamlMember.Getter = get_40_DataGrid_ItemsSource;
+                xamlMember.Setter = set_40_DataGrid_ItemsSource;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AutoGenerateColumns":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AutoGenerateColumns", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_DataGrid_AutoGenerateColumns;
-                xamlMember.Setter = set_40_DataGrid_AutoGenerateColumns;
+                xamlMember.Getter = get_41_DataGrid_AutoGenerateColumns;
+                xamlMember.Setter = set_41_DataGrid_AutoGenerateColumns;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AreRowDetailsFrozen":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AreRowDetailsFrozen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_DataGrid_AreRowDetailsFrozen;
-                xamlMember.Setter = set_41_DataGrid_AreRowDetailsFrozen;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.Columns":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Columns", "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>");
-                xamlMember.Getter = get_42_DataGrid_Columns;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ActualWidth":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ActualWidth", "Double");
-                xamlMember.Getter = get_43_DataGridColumn_ActualWidth;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserReorder":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserReorder", "Boolean");
-                xamlMember.Getter = get_44_DataGridColumn_CanUserReorder;
-                xamlMember.Setter = set_44_DataGridColumn_CanUserReorder;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserResize":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserResize", "Boolean");
-                xamlMember.Getter = get_45_DataGridColumn_CanUserResize;
-                xamlMember.Setter = set_45_DataGridColumn_CanUserResize;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserSort":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserSort", "Boolean");
-                xamlMember.Getter = get_46_DataGridColumn_CanUserSort;
-                xamlMember.Setter = set_46_DataGridColumn_CanUserSort;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CellStyle":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CellStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.Getter = get_47_DataGridColumn_CellStyle;
-                xamlMember.Setter = set_47_DataGridColumn_CellStyle;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ClipboardContentBinding":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ClipboardContentBinding", "Microsoft.UI.Xaml.Data.Binding");
-                xamlMember.Getter = get_48_DataGridColumn_ClipboardContentBinding;
-                xamlMember.Setter = set_48_DataGridColumn_ClipboardContentBinding;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DisplayIndex":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DisplayIndex", "Int32");
-                xamlMember.Getter = get_49_DataGridColumn_DisplayIndex;
-                xamlMember.Setter = set_49_DataGridColumn_DisplayIndex;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DragIndicatorStyle":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DragIndicatorStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.Getter = get_50_DataGridColumn_DragIndicatorStyle;
-                xamlMember.Setter = set_50_DataGridColumn_DragIndicatorStyle;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.HeaderStyle":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "HeaderStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.Getter = get_51_DataGridColumn_HeaderStyle;
-                xamlMember.Setter = set_51_DataGridColumn_HeaderStyle;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Header":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Header", "Object");
-                xamlMember.Getter = get_52_DataGridColumn_Header;
-                xamlMember.Setter = set_52_DataGridColumn_Header;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsAutoGenerated":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsAutoGenerated", "Boolean");
-                xamlMember.Getter = get_53_DataGridColumn_IsAutoGenerated;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsFrozen":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsFrozen", "Boolean");
-                xamlMember.Getter = get_54_DataGridColumn_IsFrozen;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsReadOnly":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsReadOnly", "Boolean");
-                xamlMember.Getter = get_55_DataGridColumn_IsReadOnly;
-                xamlMember.Setter = set_55_DataGridColumn_IsReadOnly;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MaxWidth":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "MaxWidth", "Double");
-                xamlMember.Getter = get_56_DataGridColumn_MaxWidth;
-                xamlMember.Setter = set_56_DataGridColumn_MaxWidth;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MinWidth":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "MinWidth", "Double");
-                xamlMember.Getter = get_57_DataGridColumn_MinWidth;
-                xamlMember.Setter = set_57_DataGridColumn_MinWidth;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.SortDirection":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SortDirection", "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>");
-                xamlMember.Getter = get_58_DataGridColumn_SortDirection;
-                xamlMember.Setter = set_58_DataGridColumn_SortDirection;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Tag":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Tag", "Object");
-                xamlMember.Getter = get_59_DataGridColumn_Tag;
-                xamlMember.Setter = set_59_DataGridColumn_Tag;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Visibility":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Visibility", "Microsoft.UI.Xaml.Visibility");
-                xamlMember.Getter = get_60_DataGridColumn_Visibility;
-                xamlMember.Setter = set_60_DataGridColumn_Visibility;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Width":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Width", "CommunityToolkit.WinUI.UI.Controls.DataGridLength");
-                xamlMember.Getter = get_61_DataGridColumn_Width;
-                xamlMember.Setter = set_61_DataGridColumn_Width;
+                xamlMember.Getter = get_42_DataGrid_AreRowDetailsFrozen;
+                xamlMember.Setter = set_42_DataGrid_AreRowDetailsFrozen;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AlternatingRowBackground":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AlternatingRowBackground", "Microsoft.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_DataGrid_AlternatingRowBackground;
-                xamlMember.Setter = set_62_DataGrid_AlternatingRowBackground;
+                xamlMember.Getter = get_43_DataGrid_AlternatingRowBackground;
+                xamlMember.Setter = set_43_DataGrid_AlternatingRowBackground;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.Columns":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Columns", "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>");
+                xamlMember.Getter = get_44_DataGrid_Columns;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ActualWidth":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ActualWidth", "Double");
+                xamlMember.Getter = get_45_DataGridColumn_ActualWidth;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserReorder":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserReorder", "Boolean");
+                xamlMember.Getter = get_46_DataGridColumn_CanUserReorder;
+                xamlMember.Setter = set_46_DataGridColumn_CanUserReorder;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserResize":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserResize", "Boolean");
+                xamlMember.Getter = get_47_DataGridColumn_CanUserResize;
+                xamlMember.Setter = set_47_DataGridColumn_CanUserResize;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CanUserSort":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserSort", "Boolean");
+                xamlMember.Getter = get_48_DataGridColumn_CanUserSort;
+                xamlMember.Setter = set_48_DataGridColumn_CanUserSort;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.CellStyle":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CellStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_49_DataGridColumn_CellStyle;
+                xamlMember.Setter = set_49_DataGridColumn_CellStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.ClipboardContentBinding":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ClipboardContentBinding", "Microsoft.UI.Xaml.Data.Binding");
+                xamlMember.Getter = get_50_DataGridColumn_ClipboardContentBinding;
+                xamlMember.Setter = set_50_DataGridColumn_ClipboardContentBinding;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DisplayIndex":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DisplayIndex", "Int32");
+                xamlMember.Getter = get_51_DataGridColumn_DisplayIndex;
+                xamlMember.Setter = set_51_DataGridColumn_DisplayIndex;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.DragIndicatorStyle":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DragIndicatorStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_52_DataGridColumn_DragIndicatorStyle;
+                xamlMember.Setter = set_52_DataGridColumn_DragIndicatorStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.HeaderStyle":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "HeaderStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.Getter = get_53_DataGridColumn_HeaderStyle;
+                xamlMember.Setter = set_53_DataGridColumn_HeaderStyle;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Header":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.Getter = get_54_DataGridColumn_Header;
+                xamlMember.Setter = set_54_DataGridColumn_Header;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsAutoGenerated":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsAutoGenerated", "Boolean");
+                xamlMember.Getter = get_55_DataGridColumn_IsAutoGenerated;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsFrozen":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsFrozen", "Boolean");
+                xamlMember.Getter = get_56_DataGridColumn_IsFrozen;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.IsReadOnly":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "IsReadOnly", "Boolean");
+                xamlMember.Getter = get_57_DataGridColumn_IsReadOnly;
+                xamlMember.Setter = set_57_DataGridColumn_IsReadOnly;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MaxWidth":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "MaxWidth", "Double");
+                xamlMember.Getter = get_58_DataGridColumn_MaxWidth;
+                xamlMember.Setter = set_58_DataGridColumn_MaxWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.MinWidth":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "MinWidth", "Double");
+                xamlMember.Getter = get_59_DataGridColumn_MinWidth;
+                xamlMember.Setter = set_59_DataGridColumn_MinWidth;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.SortDirection":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "SortDirection", "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>");
+                xamlMember.Getter = get_60_DataGridColumn_SortDirection;
+                xamlMember.Setter = set_60_DataGridColumn_SortDirection;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Tag":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Tag", "Object");
+                xamlMember.Getter = get_61_DataGridColumn_Tag;
+                xamlMember.Setter = set_61_DataGridColumn_Tag;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Visibility":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Visibility", "Microsoft.UI.Xaml.Visibility");
+                xamlMember.Getter = get_62_DataGridColumn_Visibility;
+                xamlMember.Setter = set_62_DataGridColumn_Visibility;
+                break;
+            case "CommunityToolkit.WinUI.UI.Controls.DataGridColumn.Width":
+                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn");
+                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "Width", "CommunityToolkit.WinUI.UI.Controls.DataGridLength");
+                xamlMember.Getter = get_63_DataGridColumn_Width;
+                xamlMember.Setter = set_63_DataGridColumn_Width;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AlternatingRowForeground":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AlternatingRowForeground", "Microsoft.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_DataGrid_AlternatingRowForeground;
-                xamlMember.Setter = set_63_DataGrid_AlternatingRowForeground;
+                xamlMember.Getter = get_64_DataGrid_AlternatingRowForeground;
+                xamlMember.Setter = set_64_DataGrid_AlternatingRowForeground;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.AreRowGroupHeadersFrozen":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "AreRowGroupHeadersFrozen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_DataGrid_AreRowGroupHeadersFrozen;
-                xamlMember.Setter = set_64_DataGrid_AreRowGroupHeadersFrozen;
+                xamlMember.Getter = get_65_DataGrid_AreRowGroupHeadersFrozen;
+                xamlMember.Setter = set_65_DataGrid_AreRowGroupHeadersFrozen;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserReorderColumns":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserReorderColumns", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_DataGrid_CanUserReorderColumns;
-                xamlMember.Setter = set_65_DataGrid_CanUserReorderColumns;
+                xamlMember.Getter = get_66_DataGrid_CanUserReorderColumns;
+                xamlMember.Setter = set_66_DataGrid_CanUserReorderColumns;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserResizeColumns":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserResizeColumns", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_DataGrid_CanUserResizeColumns;
-                xamlMember.Setter = set_66_DataGrid_CanUserResizeColumns;
+                xamlMember.Getter = get_67_DataGrid_CanUserResizeColumns;
+                xamlMember.Setter = set_67_DataGrid_CanUserResizeColumns;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CanUserSortColumns":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CanUserSortColumns", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_DataGrid_CanUserSortColumns;
-                xamlMember.Setter = set_67_DataGrid_CanUserSortColumns;
+                xamlMember.Getter = get_68_DataGrid_CanUserSortColumns;
+                xamlMember.Setter = set_68_DataGrid_CanUserSortColumns;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.CellStyle":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "CellStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_DataGrid_CellStyle;
-                xamlMember.Setter = set_68_DataGrid_CellStyle;
+                xamlMember.Getter = get_69_DataGrid_CellStyle;
+                xamlMember.Setter = set_69_DataGrid_CellStyle;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ClipboardCopyMode":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ClipboardCopyMode", "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_DataGrid_ClipboardCopyMode;
-                xamlMember.Setter = set_69_DataGrid_ClipboardCopyMode;
+                xamlMember.Getter = get_70_DataGrid_ClipboardCopyMode;
+                xamlMember.Setter = set_70_DataGrid_ClipboardCopyMode;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnHeaderHeight":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ColumnHeaderHeight", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_DataGrid_ColumnHeaderHeight;
-                xamlMember.Setter = set_70_DataGrid_ColumnHeaderHeight;
+                xamlMember.Getter = get_71_DataGrid_ColumnHeaderHeight;
+                xamlMember.Setter = set_71_DataGrid_ColumnHeaderHeight;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnHeaderStyle":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ColumnHeaderStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_DataGrid_ColumnHeaderStyle;
-                xamlMember.Setter = set_71_DataGrid_ColumnHeaderStyle;
+                xamlMember.Getter = get_72_DataGrid_ColumnHeaderStyle;
+                xamlMember.Setter = set_72_DataGrid_ColumnHeaderStyle;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnWidth":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "ColumnWidth", "CommunityToolkit.WinUI.UI.Controls.DataGridLength");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_DataGrid_ColumnWidth;
-                xamlMember.Setter = set_72_DataGrid_ColumnWidth;
+                xamlMember.Getter = get_73_DataGrid_ColumnWidth;
+                xamlMember.Setter = set_73_DataGrid_ColumnWidth;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DataFetchSize":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DataFetchSize", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_DataGrid_DataFetchSize;
-                xamlMember.Setter = set_73_DataGrid_DataFetchSize;
+                xamlMember.Getter = get_74_DataGrid_DataFetchSize;
+                xamlMember.Setter = set_74_DataGrid_DataFetchSize;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DragIndicatorStyle":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DragIndicatorStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_DataGrid_DragIndicatorStyle;
-                xamlMember.Setter = set_74_DataGrid_DragIndicatorStyle;
+                xamlMember.Getter = get_75_DataGrid_DragIndicatorStyle;
+                xamlMember.Setter = set_75_DataGrid_DragIndicatorStyle;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.DropLocationIndicatorStyle":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "DropLocationIndicatorStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_DataGrid_DropLocationIndicatorStyle;
-                xamlMember.Setter = set_75_DataGrid_DropLocationIndicatorStyle;
+                xamlMember.Getter = get_76_DataGrid_DropLocationIndicatorStyle;
+                xamlMember.Setter = set_76_DataGrid_DropLocationIndicatorStyle;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.FrozenColumnCount":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
                 xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "FrozenColumnCount", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_76_DataGrid_FrozenColumnCount;
-                xamlMember.Setter = set_76_DataGrid_FrozenColumnCount;
-                break;
-            case "CommunityToolkit.WinUI.UI.Controls.DataGrid.GridLinesVisibility":
-                userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");
-                xamlMember = new global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlMember(this, "GridLinesVisibility", "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_DataGrid_GridLinesVisibility;
-                xamlMember.Setter = set_77_DataGrid_GridLinesVisibility;
+                xamlMember.Getter = get_77_DataGrid_FrozenColumnCount;
+                xamlMember.Setter = set_77_DataGrid_FrozenColumnCount;
                 break;
             case "CommunityToolkit.WinUI.UI.Controls.DataGrid.HeadersVisibility":
                 userType = (global::EstateZoningApp.EstateZoningApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGrid");

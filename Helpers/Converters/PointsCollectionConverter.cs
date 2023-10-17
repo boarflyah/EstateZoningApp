@@ -2,7 +2,7 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media;
 using System.Collections.ObjectModel;
-using EstateZoningApp.Core.Models.Abstracts;
+using EstateZoningApp.Core.Models;
 
 namespace EstateZoningApp.Helpers.Converters;
 public class PointsCollectionConverter : DependencyObject, IValueConverter
