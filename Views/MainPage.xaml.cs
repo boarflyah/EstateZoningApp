@@ -1,5 +1,6 @@
 ﻿using EstateZoningApp.Core.Models;
 using EstateZoningApp.ViewModels;
+using EstateZoningApp.Views.Interfaces;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Newtonsoft.Json;
@@ -7,12 +8,14 @@ using Windows.Globalization.NumberFormatting;
 
 namespace EstateZoningApp.Views;
 
-public sealed partial class MainPage : Page
+public sealed partial class MainPage : Page, IViewModelPage
 {
     public MainViewModel ViewModel
     {
         get;
     }
+
+    public object GetViewModel() => ViewModel;
 
     bool isElementRelocating;
     double draggedOnX;

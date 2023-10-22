@@ -1,7 +1,10 @@
 ﻿using System.Collections.ObjectModel;
-using System.Xml.Linq;
+using System.Data.Entity;
 using CommunityToolkit.Mvvm.ComponentModel;
+using EstateZoningApp.Core.Contexts;
 using EstateZoningApp.Core.Models;
+using EstateZoningApp.Helpers;
+using EstateZoningApp.ViewModels.Interfaces;
 using EstateZoningApp.Views.Dialog;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -9,7 +12,7 @@ using Microsoft.UI.Xaml.Input;
 
 namespace EstateZoningApp.ViewModels;
 
-public partial class MainViewModel : ObservableRecipient
+public partial class MainViewModel : ObservableRecipient, ISaveChangesAware
 {
     public MainViewModel()
     {
@@ -17,7 +20,6 @@ public partial class MainViewModel : ObservableRecipient
         Resources = new();
         Shapes = new();
         ProjectName = "Projekt 1";
-
 
         var commandIcon = new SymbolIconSource()
         {
@@ -111,7 +113,7 @@ public partial class MainViewModel : ObservableRecipient
             {
                 _SelectedElement = value;
                 OnPropertyChanged(nameof(SelectedElement));
-            }    
+            }
         }
     }
 
@@ -147,6 +149,28 @@ public partial class MainViewModel : ObservableRecipient
 
     #region Methods
 
+    #region ISaveChangesAware implementation
+
+    public async Task SaveChanges(XamlRoot root)
+    {
+        using ProjectsContext db = new();
+
+        Project project = new()
+        {
+            DimensionA = DimensionA,
+            DimensionB = DimensionB,
+            Name = ProjectName,
+        };
+
+        project.Elements = Elements;
+        project.Shapes = Shapes;
+
+        db.Projects.Add(project);
+        await db.SaveChangesAsync();
+    }
+
+    #endregion
+
     #region Command methods
 
     async Task AddNewShape(XamlRoot root)
@@ -176,97 +200,9 @@ public partial class MainViewModel : ObservableRecipient
 
     public void LoadElements()
     {
-        SimplePoint p1 = new SimplePoint()
-        {
-            X = 2,
-            Y = 5,
-            Height = 50,
-            Width = 50,
-        },
-        p2 = new SimplePoint()
-        {
-            X = 2,
-            Y = 10,
-            Height = 50,
-            Width = 50,
-        },
-        p3 = new SimplePoint()
-        {
-            X = 8,
-            Y = 7.5,
-            Height = 50,
-            Width = 50,
-        };
-        SimplePoint p4 = new SimplePoint()
-        {
-            X = 8,
-            Y = 2,
-            Height = 50,
-            Width = 50,
-        }; 
-        SimplePoint p5 = new SimplePoint()
-        {
-            X = 2,
-            Y = 5,
-            Height = 50,
-            Width = 50,
-        };
-
-        SimpleShape Shape = new();
-
-        Shape.Points = new();
-        Shape.Points.Add(p1);
-        Shape.Points.Add(p2);
-        Shape.Points.Add(p3);
-        Shape.Points.Add(p4);
-        Shape.Points.Add(p5);
-
-        Shapes.Add(Shape);
-
-
-        SimplePoint p6 = new SimplePoint()
-        {
-            X = 15,
-            Y = 5,
-            Height = 50,
-            Width = 50,
-        };
-        SimplePoint p7 = new SimplePoint()
-        {
-            X = 15,
-            Y = 10,
-            Height = 50,
-            Width = 50,
-        };
-        SimplePoint p8 = new SimplePoint()
-        {
-            X = 20,
-            Y = 7.5,
-            Height = 50,
-            Width = 50,
-        };
-        SimplePoint p9 = new SimplePoint()
-        {
-            X = 15,
-            Y = 5,
-            Height = 50,
-            Width = 50,
-        };
-
-        SimpleShape shape2 = new();
-        shape2.Points = new()
-        {
-            p6,
-            p7,
-            p8,
-            p9
-        };
-
-        Shapes.Add(shape2);
-
         Resources.Add(new SimplePoint()
         {
-            Height= 3,
+            Height = 3,
             Width = 3,
             ImagePath = "\\Resources\\tree2.png"
         });
@@ -277,6 +213,115 @@ public partial class MainViewModel : ObservableRecipient
             Width = 2,
             ImagePath = "\\Resources\\bush1.png"
         });
+
+        using ProjectsContext context = new();
+        using PointsContext pointsContext = new();
+        using ShapesContext shapesContext = new();
+
+        var project = context.Projects.Include(nameof(Project.Elements)).Include(nameof(Project.Shapes)).FirstOrDefault();
+
+        //var query = from b in context.Projects join point in pointsContext.Set<SimplePoint>() on b.Shapes
+        //            select b; 
+        //DimensionA = project.DimensionA;
+        //DimensionB = project.DimensionB;
+
+        //foreach (var el in project.Elements)
+        //    Elements.Add(el);
+
+        //foreach (var shape in project.Shapes)
+        //{
+        //    var query = from s in shapesContext.Shapes join point in pointsContext.Points on s.Id equals point.SimpleShape_Id  select s;
+        //}
+
+            //Shapes.Add(sh);
+
+        //SimplePoint p1 = new SimplePoint()
+        //{
+        //    X = 2,
+        //    Y = 5,
+        //    Height = 50,
+        //    Width = 50,
+        //},
+        //p2 = new SimplePoint()
+        //{
+        //    X = 2,
+        //    Y = 10,
+        //    Height = 50,
+        //    Width = 50,
+        //},
+        //p3 = new SimplePoint()
+        //{
+        //    X = 8,
+        //    Y = 7.5,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+        //SimplePoint p4 = new SimplePoint()
+        //{
+        //    X = 8,
+        //    Y = 2,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+        //SimplePoint p5 = new SimplePoint()
+        //{
+        //    X = 2,
+        //    Y = 5,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+
+        //SimpleShape Shape = new();
+
+        //Shape.Points = new();
+        //Shape.Points.Add(p1);
+        //Shape.Points.Add(p2);
+        //Shape.Points.Add(p3);
+        //Shape.Points.Add(p4);
+        //Shape.Points.Add(p5);
+
+        //Shapes.Add(Shape);
+
+
+        //SimplePoint p6 = new SimplePoint()
+        //{
+        //    X = 15,
+        //    Y = 5,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+        //SimplePoint p7 = new SimplePoint()
+        //{
+        //    X = 15,
+        //    Y = 10,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+        //SimplePoint p8 = new SimplePoint()
+        //{
+        //    X = 20,
+        //    Y = 7.5,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+        //SimplePoint p9 = new SimplePoint()
+        //{
+        //    X = 15,
+        //    Y = 5,
+        //    Height = 50,
+        //    Width = 50,
+        //};
+
+        //SimpleShape shape2 = new();
+        //shape2.Points = new()
+        //{
+        //    p6,
+        //    p7,
+        //    p8,
+        //    p9
+        //};
+
+        //Shapes.Add(shape2);
 
         //Elements.Add(new SimplePoint()
         //{
@@ -364,7 +409,7 @@ public partial class MainViewModel : ObservableRecipient
 
     private void AddNewShapeCommand_CanExecuteRequested(XamlUICommand sender, CanExecuteRequestedEventArgs args)
     {
-        if (DimensionA == 0 || DimensionB== 0)
+        if (DimensionA == 0 || DimensionB == 0)
             args.CanExecute = false;
     }
 

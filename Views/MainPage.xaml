@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:models="using:EstateZoningApp.Core.Models.Abstracts"
+    xmlns:models="using:EstateZoningApp.Core.Models"
     xmlns:local="using:EstateZoningApp.Helpers"
     xmlns:converters="using:EstateZoningApp.Helpers.Converters"
     xmlns:sys="using:System"
